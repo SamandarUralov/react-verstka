@@ -108,7 +108,7 @@ const Modal: React.FC<Props> = ({ modal }) => {
                 <h5>Регион</h5>
                 <p>
                   <input
-                    value={checkBox.russian}
+                    // value={checkBox.russian}
                     type="checkbox"
                     // onClick={(e: React.MouseEvent<HTMLInputElement>) => setCheckBox({russian: !checkBox.russian})}
                   />{" "}
