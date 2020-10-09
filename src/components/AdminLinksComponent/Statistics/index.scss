@@ -1,0 +1,77 @@
+.dashboardStatisticsSection {
+  .dashboardStatisticsMain {
+    padding-top: 20px;
+
+    .dashboardStatisticsMainCard {
+      height: 500px;
+
+      .statisticsMainTitle {
+        font-size: 106px;
+        letter-spacing: 0.996px;
+        color: #3F51B5;
+        font-family: 'Roboto-Regular', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .dashboardStatisticsSection {
+    .dashboardStatisticsMain {
+      .dashboardStatisticsMainCard {
+        .statisticsMainTitle {
+          font-size: 66px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+  .dashboardStatisticsSection {
+    .dashboardStatisticsMain {
+      .dashboardStatisticsMainCard {
+        .statisticsMainTitle {
+          font-size: 86px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+  .dashboardStatisticsSection {
+    .dashboardStatisticsMain {
+      .dashboardStatisticsMainCard {
+        .statisticsMainTitle {
+          font-size: 54px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+  .dashboardStatisticsSection {
+    .dashboardStatisticsMain {
+      .dashboardStatisticsMainCard {
+        .statisticsMainTitle {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
